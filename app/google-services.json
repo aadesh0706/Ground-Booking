@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038542359228",
+    "project_id": "groundbooking-3a383",
+    "storage_bucket": "groundbooking-3a383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038542359228:android:b1fc6d534836ca138f5eb9",
+        "android_client_info": {
+          "package_name": "com.example.goundbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASnM_O87C7BUSLqKfMq3iUgCXnaR-Tr9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">goundbooking</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile no</string>
+    <string name="e_mail_id">E-Mail ID</string>
+</resources>

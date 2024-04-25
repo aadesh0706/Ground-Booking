@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groundlogin"
+        android:text="Ground Booking"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_margin="100dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/login"
+        android:hint="@string/email_id"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/baseline_person_2_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:layout_below="@+id/mail"
+        android:hint="@string/password"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/baseline_password_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtn"
+        android:layout_below="@id/pass"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registernow"
+        android:text="Register Now"
+        android:layout_below="@+id/lbtn"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

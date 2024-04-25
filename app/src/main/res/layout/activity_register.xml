@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tground"
+        android:text="Ground Booking"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tregister"
+        android:text="Registration"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="65dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@+id/tregister"
+        android:hint="@string/name"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobileno"
+        android:layout_below="@+id/name"
+        android:hint="@string/mobile_no"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/mobileno"
+        android:hint="@string/e_mail_id"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:layout_below="@+id/mail"
+        android:hint="@string/password"
+        android:background="@color/cardview_light_background"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbtn"
+        android:text="REGISTER"
+        android:textSize="25dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginnow"
+        android:text="Click To Login"
+        android:layout_below="@+id/rbtn"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
